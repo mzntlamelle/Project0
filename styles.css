@@ -70,7 +70,7 @@ button:hover,
 #subject{
   background-color: #ABDB03;
 }
-@madia(min:width: 500px){
+@madia(max:width: 500px){
   .header-image{
     display: none;
   }
