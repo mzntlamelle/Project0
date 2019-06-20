@@ -71,7 +71,7 @@ button:hover,
   background-color: #ABDB03;
 }
 
-@media (max-width: 399px) {
+@media (max-width: 549px) {
   .header-image{
     display: none;
   }
