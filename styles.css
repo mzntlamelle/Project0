@@ -1,0 +1,49 @@
+section{
+  padding-left: 180px;
+  padding-right: 180px;
+  padding-top: 80px;
+  padding-bottom: 50px;
+}
+
+h1 {
+  color: blue;
+  font-size: 600%;
+  font-style: oblique;
+}
+
+p {
+  text-align: justify;
+}
+
+i {
+  color: #004070
+}
+header{
+  text-align: center;
+}
+
+table{
+  border: 2px solid black;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+th, td{
+  border: 1px solid black;
+  padding: 5px;
+}
+ th{
+   background-color: lightgrey;
+   border: 2px solid black;
+ }
+
+button{
+  width: 180px;
+  height: 30px;
+  margin: 20px;
+}
+.teacher{
+  font-weight: bold;
+  font-size: 15px;
+  color: #060F86;
+}
