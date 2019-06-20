@@ -40,7 +40,10 @@ button{
   font-weight: bold;
 }
 
-button:hover{
+button:hover,
+#Home:hover,
+#Admin:hover,
+#Staff:hover,#class:hover,#subject:hover{
   background-color: #536514;
 }
 
