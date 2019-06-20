@@ -1,10 +1,6 @@
 section{
-  padding-left: 120px;
-  padding-right: 120px;
-  padding-top: 80px;
-  padding-bottom: 50px;
+  padding: 80px;
 }
-
 h1 {
   color: blue;
   font-size: 600%;
@@ -41,9 +37,31 @@ button{
   width: 180px;
   height: 30px;
   margin: 20px;
+  font-weight: bold;
 }
+
+button:hover{
+  background-color: #536514;
+}
+
 .teacher{
   font-weight: bold;
   font-size: 15px;
   color: #060F86;
+}
+#Home{
+  background-color: #ABCDEF;
+}
+
+#Admin{
+  background-color: #1AB6D0;
+}
+#Staff{
+  background-color: #06FAFF;
+}
+#class{
+  background-color: #03DBBF;
+}
+#subject{
+  background-color: #ABDB03;
 }
