@@ -43,7 +43,9 @@ button{
 button:hover,
 #Home:hover,
 #Admin:hover,
-#Staff:hover,#class:hover,#subject:hover{
+#Staff:hover,
+#class:hover,
+#subject:hover{
   background-color: #536514;
 }
 
@@ -67,4 +69,9 @@ button:hover,
 }
 #subject{
   background-color: #ABDB03;
+}
+@madia(min:width: 500px){
+  .header-image{
+    display: none;
+  }
 }
