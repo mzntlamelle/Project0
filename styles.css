@@ -12,10 +12,11 @@ p {
 }
 
 i {
-  color: #004070
+  color: #DFD0D0
 }
 header{
   text-align: center;
+  background-color: white;
 }
 
 table{
