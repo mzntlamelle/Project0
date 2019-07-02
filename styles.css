@@ -99,4 +99,7 @@ button:hover,
   .row{
     padding-left: 80px;
   }
+  body{
+    color: inherit;
+  }
 }
