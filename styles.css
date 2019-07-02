@@ -91,13 +91,13 @@ button:hover,
     display: none;
   }
   section{
-    padding:80px;
+    padding:50px;
   }
   #subj{
     display: none;
   }
   .row{
-    padding-left: 80px;
+    padding-left: 50px;
   }
   body{
     color: black;
