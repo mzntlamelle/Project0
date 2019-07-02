@@ -1,0 +1,36 @@
+header{
+    background-image: url("images/map1.png");
+    background-repeat: round;
+  }
+.department{
+  display: grid;
+  padding: 20px;
+  grid-column-gap:10px;
+  grid-template-columns: auto auto;
+}
+
+.col-2{
+  text-align: center;
+  background-color: #DBE5E5;
+}
+
+#MASC, #Soc_Sci, #subj{
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#MASC{
+background-image: url("images/science.jpg");
+}
+#Soc_Sci{
+  background-image: url("images/social.jpg");
+}
+.sub_btn{
+  text-align: justify;
+  background-color: #DBE5E5;
+}
+.sub_btn:hover{
+  background-color: #aBd5d5;
+}
+#subject_intro{
+  padding-right: 80px;
+}
