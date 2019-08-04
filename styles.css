@@ -1,7 +1,7 @@
-section{
+.body, #home_body{
   padding-left: 150px;
   padding-right: 150px;
-  padding-top: 80px;
+  margin-top: 13%;
   padding-bottom:80px;
 }
 h1 {
@@ -15,11 +15,22 @@ p {
 }
 
 i {
-  color: #DFD0D0
+  color: #1FE0F0
 }
-header{
+
+.head{
   text-align: center;
+  margin-top: -100px;
+}
+.head, .top, .sub_head{
   background-color: white;
+  position: fixed;
+  overflow: hidden;
+  width: 100%;
+}
+.top{
+  top:0;
+  width:100%;
 }
 
 table{
@@ -58,7 +69,7 @@ button:hover,
 .teacher{
   font-weight: bold;
   font-size: 15px;
-  color: #060F86;
+  color: #160A86;
 }
 #Home{
   background-color: #ABCDEF;
@@ -86,20 +97,24 @@ button:hover,
   text-align: left;
   padding-left: 30px;
 }
-@media (max-width: 599px) {
+@media (max-width: 992px) {
   .header-image{
     display: none;
   }
   section{
     padding:50px;
   }
-  #subj{
+  .col-lg-2, .sub_btn{
     display: none;
   }
   .row{
     padding-left: 50px;
   }
+
   body{
-    color: black;
+    background-color: #046EDC;
+    color: white;
   }
+  a{
+    color: #FFA0D0;
 }
