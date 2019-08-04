@@ -1,0 +1,22 @@
+#home_page{
+  background-image: url("images/students1.jpg");
+  background-size:cover;
+  margin-top: 1%;
+  text-align: center;
+}
+
+#School_name{
+  background-color: white;
+  color: blue;
+  margin-top: 20%
+}
+
+#motor{
+  background-color: blue;
+  color: white;
+  margin-bottom: 5%;
+}
+
+#home_body{
+  margin-top: 3%
+}
