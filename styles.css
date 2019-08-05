@@ -31,6 +31,7 @@ i {
 .top{
   top:0;
   width:100%;
+  z-index: 1;
 }
 
 table{
@@ -100,21 +101,31 @@ button:hover,
 @media (max-width: 992px) {
   .header-image{
     display: none;
+
   }
-  section{
+
+  #home_body{
     padding:50px;
   }
-  .col-lg-2, .sub_btn{
+  .col-lg-2, .sub_btn,{
     display: none;
   }
   .row{
     padding-left: 50px;
   }
 
-  body{
+/* body{
     background-color: #046EDC;
     color: white;
-  }
+  }*/
   a{
     color: #FFA0D0;
+  }
+}
+footer{
+  background-color: #74767C;
+  color: white;
+  padding-left: 3%;
+  width: 100%;
+  bottom: 0;
 }
